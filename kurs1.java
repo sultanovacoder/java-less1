@@ -43,9 +43,9 @@ class Homework1 {
 	
 	private static void defineLeapYear(int year){
 		
-		if ((year % 4 == 0) && (!(year % 100 == 0))) System.out.println("leap  year"); 
+		if ((year % 4 == 0) && (!(year % 100 == 0))) System.out.println("leap year"); 
 		
-		else if ((year % 100 == 0) && (year % 400 == 0)) System.out.println("leap  year"); else System.out.println("no leap year");	
+		else if ((year % 100 == 0) && (year % 400 == 0)) System.out.println("leap year"); else System.out.println("no leap year");	
 
 	}
 }
